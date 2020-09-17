@@ -23,7 +23,9 @@ note9 = Mark(2,17)
 
 for e in Pierre.marks:
     print(e.value)
-
+Pierre.get_marks()
 Pierre.get_average()
+print("--------------------------------------------------------------------------")
+Thibault.get_marks()
 Thibault.get_average()
 
